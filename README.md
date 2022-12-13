@@ -1,29 +1,35 @@
-# MyNetWork
+# Vue Social Network project
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple social network project made with [VueJS](https://vuejs.org/).
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Usage
 
-## Customize configuration
+### prerequisites
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Node](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Json-server](https://github.com/typicode/json-server)
 
-## Project Setup
+First clone the project using
 
-```sh
+```bash
+git clone https://github.com/Amine-Alami/MyNetWork
+```
+Then go to project's root directory and run
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Don't forget to start the database with
 
-```sh
-npm run dev
+```bash
+json-server --watch ./DataBase/db.json
 ```
 
-### Compile and Minify for Production
+And finally run
 
-```sh
-npm run build
+```bash
+npm run dev
 ```
